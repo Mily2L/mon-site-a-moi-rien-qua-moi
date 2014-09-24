@@ -1,20 +1,44 @@
+body {
+	text-align: center;
+	font-family: Libre Baskerville, serif;
+}
+
 #header{
 	text-align: center;
 }
 
 #header h1{
-	color: blue
+	color: #190482;	
+	font-size: 50px;
+}
+
+#header h1 span{
+	color: #190482;	
+	font-size: 65px;
 }
 
 #header h2{
-	color: red;
+	color: #FF4A44;
+	height: 125px;
+	font-family: Parisienne, cursive;
+	font-size: 30px;
+}
+
+#header h2 span{
+	color: #FF4A44;
+	height: 125px;
+	font-family: Libre Baskerville, serif;
+	font-size: 35px;
 }
 
 #mainnav li{
 	display: inline-block;
+	height: 200px;
+	font-size: 15px;
 }
+
 #mainnav a{
-	margin: 89px;
+	margin: 72px;
 }
 
 #lienart1 {
@@ -22,7 +46,7 @@
 }
 
 #lienart2{
-	background-color: orange;;
+	background-color: orange;
 }
 
 #lienart3{
@@ -35,4 +59,14 @@
 
 #lienagenda{
 	background-color: pink;
+}
+
+#section{
+	float: left;
+	width: 70%;
+}
+
+#aside{
+	float: right;
+	width: 30%;
 }
