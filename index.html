@@ -4,46 +4,51 @@
 	<title>La guerre des Plumes n'aura pas lieu</title>
 	<meta charset="UTF-8">
 	<!--copier link viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<!--copier link bootsrap-->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!--copier link fontawesome-->
+	<link href="Font-Awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Parisienne&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-	<div id="home">
-		<header id="header">
-			<h1>LA <span>G</span>UERRE DES <span>P</span>LUMES N'AURA PAS <span>L</span>IEU</h1>
-			<h2><span>GPL</span> - Les Sens des Arts</h2>
-				<nav id="mainnav">
-					<ul>
-						<li><a href="" id="lienart1">ARTS AUDIOVISUELS</a></li>
-						<li><a href="" id="lienart2">ARTS DE L'ECRIT</a></li>
-						<li><a href="" id="lienart3">ARTS PLASTIQUES</a></li>
-						<li><a href="" id="lienart4">ARTS DE LA SCENE</a></li>
-						<li><a href="" id="lienagenda">AGENDA</a></li>
-					</ul>
-				</nav>
-		</header>
+	<div class="container-fluid">	
+		<div id="home">
+			<header id="header">
+				<h1>LA <span>G</span>UERRE DES <span>P</span>LUMES N'AURA PAS <span>L</span>IEU</h1>
+				<h2><span>GPL</span> - Les Sens des Arts</h2>
+					<nav id="mainnav">
+						<ul>
+							<li><a href="" id="lienart1">ARTS AUDIOVISUELS</a></li>
+							<li><a href="" id="lienart2">ARTS DE L'ECRIT</a></li>
+							<li><a href="" id="lienart3">ARTS PLASTIQUES</a></li>
+							<li><a href="" id="lienart4">ARTS DE LA SCENE</a></li>
+							<li><a href="" id="lienagenda">AGENDA</a></li>
+						</ul>
+					</nav>
+			</header>
 
 <section>
-	<article>
-		<h3>ARTICLE 1</h3>
-    		<img src="images/camera.jpg">
-    			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-   			 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-   			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-   			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-   			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-   			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum....
-   			 <a href="">Lire la suite</a>
-    		</p>
-	</article>
+	<div class="row">
+		<article>
+			<h3>ARTS AUDIOVISUELS</h3>
+    			<img src="images/camera.jpg">
+	    			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	   			 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	   			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	   			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	   			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	   			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum....
+   			 		<a href="">Lire la suite</a>
+    				</p>
+		</article>
 
 	<article>
-		<h3>ARTICLE  2</h3>
+		<h3>ARTS DE L'ECRIT</h3>
 	    	<img src="images/rimbaud.jpg">
 	   		 	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	   			 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -55,7 +60,7 @@
 	</article>
 
 	<article>
-		<h3>ARTICLE 3</h3>
+		<h3>ARTS PLASTIQUES</h3>
     		<img src="images/nikidestphalle.jpg">
 	   		 	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	   			 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -67,7 +72,7 @@
 	</article>
 
 	<article>
-		<h3>ARTICLE 4</h3>
+		<h3>ARTS DE LA SCENE</h3>
 	    	<img src="images/rideauscene.jpg">
 	   		 	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	   			 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -79,8 +84,8 @@
 	</article>
 
 	<article>
-		<h3>ARTICLE 5</h3>
-	    <img src="images/agendapostit.jpg">
+		<h3>ARTISTE DU MOIS</h3>
+	    <img src="images/christine.jpg">
 	   		 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	   			 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	   			 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -92,6 +97,10 @@
 </section>
 
 <aside> <!--fontawsome qui génère une image -->
+</aside>
+
+<footer class="list-inline">
+	<!-- Font-Awesome/icon/twitter/ -->
 	<img src="">
     	<p>Chercher un article</p>
 
@@ -107,10 +116,6 @@
     	<p>
     		<a class=""></a>
     	</p>
-</aside>
-
-<footer class="list-inline">
-	<!-- Font-Awesome/icon/twitter/ -->
 	<h3>Qui sommes-nous ?</h3>
 
 	<h3>Suivez-nous</h3>
@@ -125,6 +130,8 @@
 </footer>
 
 		</div><!-- fond decran -->
+	</div> <!-- container-->
+
 
 <!--copier link script-->
 	
