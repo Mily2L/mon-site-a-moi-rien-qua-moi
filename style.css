@@ -5,6 +5,22 @@ body {
 	padding: 0;
 }
 
+#footer{
+	background-color: #FF4A44;
+	font-weight: 15px
+
+}
+ 
+ #footer a{
+ 	color: #190482;
+ 	font-size: 25px;
+ }
+
+ #footer h3 i{
+ 	color: #190482;
+ 	font-size: 25px;
+ }
+
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
@@ -81,6 +97,3 @@ h1, h2, h3, h4, h5, h6 {
 	width: 70%;
 }
 
-#footer{
-	text-align: center;
-}
