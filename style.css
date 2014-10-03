@@ -5,9 +5,12 @@ body {
 	padding: 0;
 }
 
-#footer{
+#footer {
 	background-color: #FF4A44;
-	font-weight: 15px
+	font-weight: 5px
+	text-align:justify;
+	padding-top: 0;
+  	padding-bottom: 0;
 
 }
  
@@ -16,9 +19,18 @@ body {
  	font-size: 25px;
  }
 
+
+ #footer a:hover {	
+ 	color: white;
+ }
+
  #footer h3 i{
  	color: #190482;
  	font-size: 25px;
+ }
+
+ #footer ul{
+ 	list-style-position: inside;
  }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,12 +41,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #home {	
 	background: url(images/fondecrangraffherbe.jpg);
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-position: center;
+	background-attachment: scroll;
 	margin: 0;
 	padding: 0;
 }
-#header{
+#header {
 	text-align: center;
 }
 
@@ -76,23 +89,23 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: green;
 }
 
-#lienart2{
+#lienart2 {
 	background-color: orange;
 }
 
-#lienart3{
+#lienart3 {
 	background-color: blue;
 }
 
-#lienart4{
+#lienart4 {
 	background-color:purple;
 }
 
-#lienagenda{
+#lienagenda {
 	background-color: pink;
 }
 
-#section{
+#section {
 	float: left;
 	width: 70%;
 }
