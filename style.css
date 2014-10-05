@@ -1,3 +1,23 @@
+/************************************************/
+/***********     CSS CONTENT      **********/
+/***********************************************/
+/*
+
+- Initialize
+- Global
+- Header
+- Home content
+- Aside
+- Footer
+
+*/
+/************************************************/
+/*************     INITIALIZE      **************/
+/***********************************************/
+
+/************************************************/
+/*************     GLOBAL      ****************/
+/***********************************************/
 body {
 	text-align: center;
 	font-family: Libre Baskerville, serif;
@@ -5,39 +25,17 @@ body {
 	padding: 0;
 }
 
-#footer {
-	background-color: #FF4A44;
-	font-weight: 5px
-	text-align:justify;
-	padding-top: 0;
-  	padding-bottom: 0;
 
+.box-me{
+	background-color: white;
+	box-shadow: border-right;
+	margin-top: 10px;
 }
- 
- #footer a{
- 	color: #190482;
- 	font-size: 25px;
- }
-
-
- #footer a:hover {	
- 	color: white;
- }
-
- #footer h3 i{
- 	color: #190482;
- 	font-size: 25px;
- }
-
- #footer ul{
- 	list-style-position: inside;
- }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-	padding: 0;
+	margin: 10px;
+	padding: 10px;
 }
-
 
 #home {	
 	background: url(images/fondecrangraffherbe.jpg);
@@ -47,13 +45,24 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 }
+
+
+#section {
+	float: left;
+	width: 70%;
+}
+
+/************************************************/
+/*************     HEADER      ****************/
+/***********************************************/
+
 #header {
 	text-align: center;
 }
 
 #header h1{
 	color: #190482;	
-	font-size: 50px;
+	font-size: 40px;
 }
 
 #header h1 span{
@@ -85,8 +94,21 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 72px;
 }
 
+.navbar-default {
+	background-color: transparent; 
+	border-color: transparent;
+	background-image: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar-nav>li>a {
+	padding-right: 36px;
+	padding-left: 36px;
+}
+
 #lienart1 {
-	background-color: green;
+	background-color: #20EB0F;
 }
 
 #lienart2 {
@@ -104,9 +126,51 @@ h1, h2, h3, h4, h5, h6 {
 #lienagenda {
 	background-color: pink;
 }
+/************************************************/
+/**********     HOME CONTENT      *********/
+/***********************************************/
 
-#section {
-	float: left;
-	width: 70%;
+/************************************************/
+/*************        ASIDE       ****************/
+/***********************************************/
+
+/************************************************/
+/*************     FOOTER      ****************/
+/***********************************************/
+
+
+
+#footer {
+	background-color: #FF4A44;
+	font-weight: 5px;
+	padding-top: 0;
+  	padding-bottom: 0;
+
 }
+ 
+ #footer a{
+ 	color: #190482;
+ 	font-size: 25px;
+ }
+
+
+ #footer a:hover {	
+ 	color: white;
+ }
+
+ #footer h3 i{
+ 	color: #190482;
+ 	font-size: 25px;
+ }
+
+ #footer ul{
+ 	list-style-position: inside;
+ }
+
+
+
+
+
+
+
 
