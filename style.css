@@ -27,7 +27,7 @@ body {
 
 
 .box-me{
-	background-color: white;
+	background-color: #fee1e1;
 	box-shadow: border-right;
 	margin-top: 10px;
 }
@@ -38,11 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home {	
-	background: url(images/perso2.png);
-	background-repeat: repeat;
-	background-position: center, left, right;
-	margin: 1px;
-	padding: 1px;
+	background-color: #292521;
 }
 
 
@@ -51,6 +47,13 @@ h1, h2, h3, h4, h5, h6 {
 	width: 70%;
 }
 
+p {
+	font-family: Patua One, cursive;
+}
+
+h3 {
+	font-family: Lobster, cursive;
+}
 /************************************************/
 /*************     HEADER      ****************/
 /***********************************************/
@@ -62,6 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 #header h1{
 	color: #190482;	
 	font-size: 40px;
+	font-family: Lobster, cursive;
 }
 
 #header h1 span{
@@ -72,14 +76,14 @@ h1, h2, h3, h4, h5, h6 {
 #header h2{
 	color: #FF4A44;
 	height: 125px;
-	font-family: Parisienne, cursive;
+	font-family: Lobster, cursive;
 	font-size: 30px;
 }
 
 #header h2 span{
 	color: #FF4A44;
 	height: 125px;
-	font-family: Libre Baskerville, serif;
+	font-family: Lobster, cursive;
 	font-size: 35px;
 }
 
@@ -102,38 +106,46 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-nav>li>a {
-	padding-right: 28px;
-	padding-left: 28px;
+	padding-right: 40px;
+	padding-left: 40px;
 	border-radius: 4px;
 	margin: 1px;
 }
 
 #lienart1 {
-	background-color: #20EB0F;
+	background-color: #49eb04;
+	font-family: Lobster, cursive;
 }
 
 #lienart2 {
-	background-color: #ff4c13;
+	background-color: #ff3f02;
+	font-family: Lobster, cursive;
+
 }
 
 #lienart3 {
-	background-color: #214fc9;
+	background-color: #1b17e6;
+	font-family: Lobster, cursive;
 }
 
 #lienart4 {
-	background-color: #ae2293;
+	background-color: #cb0da1;
+	font-family: Lobster, cursive;
 }
 
 #lienart5 {
-	background-color: #EBFF02;
+	background-color: #f1f70d;
+	font-family: Lobster, cursive;
 }
 
 #lienart6 {
-	background-color: #EC0224;
+	background-color: #fc010f;
+	font-family: Lobster, cursive;
 }
 
 #lienagenda {
-	background-color: #ec006e;
+	background-color: #f70f9a;
+	font-family: Lobster, cursive;
 }
 /************************************************/
 /**********     HOME CONTENT      *********/
