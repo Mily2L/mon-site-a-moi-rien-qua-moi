@@ -19,8 +19,8 @@
 /*************     GLOBAL      ****************/
 /***********************************************/
 body {
+	color: #000;
 	text-align: center;
-	font-family: Libre Baskerville, serif;
 	margin: 0;
 	padding: 0;
 }
@@ -32,13 +32,17 @@ body {
 	margin-top: 10px;
 }
 
+/*.box-h{
+	background-color: #fee1e1;
+}*/
+
 h1, h2, h3, h4, h5, h6 {
 	margin: 10px;
 	padding: 10px;
 }
 
 #home {	
-	background-color: #292521;
+	background-color: #ebebf3;
 }
 
 
@@ -48,11 +52,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-	font-family: Patua One, cursive;
+	font-family: Comfortaa, cursive;	
 }
 
 h3 {
-	font-family: Lobster, cursive;
+	font-family: Righteous, cursive;
 }
 /************************************************/
 /*************     HEADER      ****************/
@@ -63,31 +67,33 @@ h3 {
 }
 
 #header h1{
-	color: #190482;	
+	color: #FF4A44;	
 	font-size: 40px;
-	font-family: Lobster, cursive;
+	font-family: Changa One, cursive;
 }
 
 #header h1 span{
-	color: #190482;	
+	color: #FF4A44;	
 	font-size: 65px;
+	font-family: Changa One, cursive;
 }
 
 #header h2{
 	color: #FF4A44;
 	height: 125px;
-	font-family: Lobster, cursive;
+	font-family: Changa One, cursive;
 	font-size: 30px;
 }
 
 #header h2 span{
 	color: #FF4A44;
 	height: 125px;
-	font-family: Lobster, cursive;
+	font-family: Changa One, cursive;
 	font-size: 35px;
 }
 
 #mainnav li{
+	color: #000;
 	display: inline-block;
 	height: 200px;
 	font-size: 50px;
@@ -106,46 +112,48 @@ h3 {
 }
 
 .navbar-nav>li>a {
-	padding-right: 40px;
-	padding-left: 40px;
+	color: #000;
+	font-size: 18px;
+	padding-right: 20px;
+	padding-left: 20px;
 	border-radius: 4px;
 	margin: 1px;
 }
 
 #lienart1 {
 	background-color: #49eb04;
-	font-family: Lobster, cursive;
+	font-family: Righteous, cursive;
 }
 
 #lienart2 {
 	background-color: #ff3f02;
-	font-family: Lobster, cursive;
+	font-family: Righteous, cursive;
 
 }
 
 #lienart3 {
 	background-color: #1b17e6;
-	font-family: Lobster, cursive;
+	font-family: Righteous, cursive;
 }
 
 #lienart4 {
 	background-color: #cb0da1;
-	font-family: Lobster, cursive;
+	font-family: Righteous, cursive;
 }
 
 #lienart5 {
 	background-color: #f1f70d;
-	font-family: Lobster, cursive;
+	font-family: Righteous, cursive;
 }
 
 #lienart6 {
 	background-color: #fc010f;
-	font-family: Lobster, cursive;
+	font-family: Righteous, cursive;
 }
 
 #lienagenda {
 	background-color: #f70f9a;
-	font-family: Lobster, cursive;
+	font-family: Righteous, cursive;
 }
 /************************************************/
 /**********     HOME CONTENT      *********/
@@ -163,11 +171,11 @@ h3 {
 
 #footer {
 	background-color: #FF4A44;
-	font-weight: 100px;
+	font-weight: 50px;
 	font-size: 15;
 	padding-top: 0;
   	padding-bottom: 0;
-  	text-align: left;
+  	text-align: center;
 
 }
  
@@ -178,7 +186,7 @@ h3 {
 
 
  #footer a:hover {	
- 	color: white;
+ 	color: #fee1e1;
  }
 
  #footer h3 i{
@@ -188,7 +196,7 @@ h3 {
 
  #footer ul{
  	list-style-position: inside;
- 	text-align: left;
+ 	text-align: center;
  }
 
 
